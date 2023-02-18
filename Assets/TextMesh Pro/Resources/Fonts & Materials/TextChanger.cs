@@ -2,12 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+
+
 
 public class TextChanger : MonoBehaviour {
    int n;
+   public TextMeshProUGUI txt;
    public void OnButtonPress(){
-      n++;
-      Debug.Log("Button clicked " + n + " times.");
-      GameObject.Find("Button").GetComponentInChildren<Text>().text = "Button clicked " + n + " times.";
+      
+      txt.text = "day";
    }
 }
