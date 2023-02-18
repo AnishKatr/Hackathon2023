@@ -733,6 +733,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   txt: {fileID: 409333891}
+  replacement: day
 --- !u!4 &1394242233
 Transform:
   m_ObjectHideFlags: 0
