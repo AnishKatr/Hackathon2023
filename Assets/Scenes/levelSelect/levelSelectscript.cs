@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class mainMenuscript : MonoBehaviour
+public class levelSelectscript : MonoBehaviour
 {
     // Chapter 1
     public void loadChapter1(){
@@ -19,13 +19,15 @@ public class mainMenuscript : MonoBehaviour
 
     }
 
-    //Chapter 3
+    //Home Button
     public void home(){
 
         SceneManager.LoadScene("mainMenu");
 
     }
 
+
+    //Quit Button
     public void quitGame(){
 
         Application.Quit();
