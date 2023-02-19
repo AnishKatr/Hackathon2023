@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/transitionCHP1.unity
     guid: c3fa0846d4bf8426ba744ef188853260
   - enabled: 1
-    path: Assets/Scenes/transitionCHP2.unity
+    path: Assets/Scenes/transitionCHP3.unity
     guid: 1e42ce6b0090f4c00a7471153f688723
   - enabled: 1
     path: Assets/Scenes/Chapter1_OCD.unity
