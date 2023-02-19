@@ -1,9 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+
 
 public class counter : MonoBehaviour
 {
+      public TextMeshProUGUI txt;
     // Start is called before the first frame update
     public int n;
     void Start()
@@ -14,7 +18,8 @@ public class counter : MonoBehaviour
     // Update is called once per frame
     public void decrementCount(){
         n--;
-        Debug.Log(n);
+        txt.text= "Number Left : "+n;
+
     }
   
 }
