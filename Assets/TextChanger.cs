@@ -26,18 +26,18 @@ public class TextChanger : MonoBehaviour {
       
       
    }
-   void Update(){
-      if (Input.GetMouseButtonDown(0)){
-         sceneChanger();
-      }
-   }
+   // void Update(){
+   //    if (Input.GetMouseButtonDown(0)){
+   //       sceneChanger();
+   //    }
+   // }
 
-   public void sceneChanger(){
+   // public void sceneChanger(){
      
-      if(count == 4 ){
+   //    if(count == 4 ){
          
-            SceneManager.LoadScene("closeGame");
-      }
-   }
+   //          SceneManager.LoadScene("closeGame");
+   //    }
+   // }
    
 }
