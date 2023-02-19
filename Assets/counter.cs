@@ -22,7 +22,7 @@ public class counter : MonoBehaviour
         txt.text= "Number Left : "+n;
         if(n == 0){
             
-         SceneManager.LoadScene("Chapter3");
+         SceneManager.LoadScene("closeCHP2");
 
         }
         
