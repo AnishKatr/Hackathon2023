@@ -5014,6 +5014,7 @@ GameObject:
   m_Component:
   - component: {fileID: 129494619}
   - component: {fileID: 129494618}
+  - component: {fileID: 129494620}
   m_Layer: 0
   m_Name: button 3
   m_TagString: Untagged
@@ -5028,7 +5029,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 129494617}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 568079c6efd534c4d99f101f4cb9c5d1, type: 3}
   m_Name: 
@@ -5051,6 +5052,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &129494620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129494617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 140a96e503f9f476795908b513ff7c25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  txt: {fileID: 2553255}
+  myButton: {fileID: 121573862}
+  replacement: I think I can afford to have 100 cals today, I hope I don't look fat
 --- !u!1 &336138851
 GameObject:
   m_ObjectHideFlags: 0
@@ -5228,6 +5244,7 @@ GameObject:
   m_Component:
   - component: {fileID: 545940086}
   - component: {fileID: 545940085}
+  - component: {fileID: 545940087}
   m_Layer: 0
   m_Name: button 4
   m_TagString: Untagged
@@ -5242,7 +5259,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 545940084}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 568079c6efd534c4d99f101f4cb9c5d1, type: 3}
   m_Name: 
@@ -5265,6 +5282,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &545940087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 545940084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 140a96e503f9f476795908b513ff7c25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  txt: {fileID: 1298049059}
+  myButton: {fileID: 1864629}
+  replacement: 400 cals?!! I'm fat enough!!
 --- !u!1 &670868203
 GameObject:
   m_ObjectHideFlags: 0
@@ -6918,6 +6950,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1371391316}
   - component: {fileID: 1371391315}
+  - component: {fileID: 1371391317}
   m_Layer: 0
   m_Name: button 1
   m_TagString: Untagged
@@ -6932,7 +6965,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1371391314}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 568079c6efd534c4d99f101f4cb9c5d1, type: 3}
   m_Name: 
@@ -6956,6 +6989,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1371391317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1371391314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 140a96e503f9f476795908b513ff7c25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  txt: {fileID: 1799790304}
+  myButton: {fileID: 336138853}
+  replacement: While chicken tenders sounds amazing, I don't know if I can afford
+    to have 210 cals
 --- !u!1 &1551553321
 GameObject:
   m_ObjectHideFlags: 0
@@ -7235,6 +7284,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1928489662}
   - component: {fileID: 1928489661}
+  - component: {fileID: 1928489663}
   m_Layer: 0
   m_Name: button 2
   m_TagString: Untagged
@@ -7249,7 +7299,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1928489660}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 568079c6efd534c4d99f101f4cb9c5d1, type: 3}
   m_Name: 
@@ -7272,6 +7322,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1928489663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1928489660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 140a96e503f9f476795908b513ff7c25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  txt: {fileID: 1066970756}
+  myButton: {fileID: 1551553323}
+  replacement: Hmm... Pizza... the carbohydrates...
 --- !u!1 &2012234422
 GameObject:
   m_ObjectHideFlags: 0
