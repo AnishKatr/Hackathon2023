@@ -25,7 +25,7 @@ public class introDialogueCHP2 : MonoBehaviour
         if(Input.GetMouseButtonDown(0)){
             
             if (index>=lines.Length-1){
-                SceneManager.LoadScene("Chapter2");
+                SceneManager.LoadScene("Chapter2Intro");
             }
             if(textComponent.text == lines[index]){
                 NextLine();
