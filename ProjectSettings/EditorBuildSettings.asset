@@ -7,7 +7,7 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 0
     path: 
-    guid: 2cda990e2423bbf4892e6590ba056729
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/mainMenu.unity
     guid: 8245781f14e264387af7bafe7426045b
@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/transitionCHP1.unity
     guid: c3fa0846d4bf8426ba744ef188853260
+  - enabled: 1
+    path: Assets/Scenes/transitionCHP2.unity
+    guid: 1e42ce6b0090f4c00a7471153f688723
   - enabled: 1
     path: Assets/Scenes/Chapter1_OCD.unity
     guid: d042a9c4ad56e644f964a404ef4c91d7
