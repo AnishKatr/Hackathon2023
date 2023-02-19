@@ -19,6 +19,13 @@ public class levelSelectscript : MonoBehaviour
 
     }
 
+    //Chapter 3
+    public void loadChapter3(){
+        
+        SceneManager.LoadScene("Chapter3");
+
+    }
+    
     //Home Button
     public void home(){
 
