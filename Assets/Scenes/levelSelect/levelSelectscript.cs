@@ -8,7 +8,7 @@ public class levelSelectscript : MonoBehaviour
     // Chapter 1
     public void loadChapter1(){
         
-        SceneManager.LoadScene("Chapter1_OCD");
+        SceneManager.LoadScene("transitionCHP3");
 
     }
 
