@@ -87,28 +87,32 @@ public class PlayerController : MonoBehaviour
             if (orderSpot%4==0){
                 if (stoveCol){
                     orderSpot++;
+                    txt.text="Turn off the sink";
                 }
             }
             else if (orderSpot%4==1){
                 if (sinkCol){
                     orderSpot++;
+                    txt.text="Rearrange the books";
                 }
             }
             else if (orderSpot%4==2){
                 if (bookshelfCol){
                     orderSpot++;
+                    txt.text="Lock the door";
                 }
             }
             else if (orderSpot%4==3){
                 if (doorCol){
                     orderSpot++;
+                    txt.text="Turn off the stove";
                 }
             }
             
             
         }
         Debug.Log(orderSpot);
-        txt.text=orderSpot.ToString();
+        
         if (orderSpot>=12){
                 SceneManager.LoadScene("transitionCHP2");
             }
