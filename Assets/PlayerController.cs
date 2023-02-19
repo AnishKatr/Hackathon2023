@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
     private bool stoveCol = false;
     private bool bookshelfCol = false;
     private bool sinkCol = false;
-    private int orderSpot=0;
+    public static int orderSpot=0;
     public TextMeshProUGUI txt;
 
 
