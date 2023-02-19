@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using static PlayerController;
 
 public class DialogueScript : MonoBehaviour
 {
@@ -10,7 +9,6 @@ public class DialogueScript : MonoBehaviour
     public TextMeshProUGUI textComponent;
     public string[] lines;
     public float textSpeed;
-    public int counter;
 
     private int index;
     // Start is called before the first frame update
@@ -23,16 +21,14 @@ public class DialogueScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        counter=PlayerController.orderSpot;
-        Debug.Log(counter);
-        if(counter ==4){
-           // if(textComponent.text == lines[index]){
+        if(Input.GetMouseButtonDown(0)){
+            if(textComponent.text == lines[index]){
                 NextLine();
-           // }
-           // else{
-               // StopAllCoroutines();
-              //  textComponent.text = lines[index];
-            //..}
+            }
+            else{
+                StopAllCoroutines();
+                textComponent.text = lines[index];
+            }
         }
     }
 
