@@ -15,14 +15,14 @@ public class levelSelectscript : MonoBehaviour
     //Chapter 2
     public void loadChapter2(){
         
-        SceneManager.LoadScene("Chapter2");
+        SceneManager.LoadScene("transitionCHP2");
 
     }
 
     //Chapter 3
     public void loadChapter3(){
         
-        SceneManager.LoadScene("Chapter3");
+        SceneManager.LoadScene("transitionCHP3");
 
     }
     
