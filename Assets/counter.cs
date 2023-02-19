@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 
 public class counter : MonoBehaviour
@@ -19,7 +20,13 @@ public class counter : MonoBehaviour
     public void decrementCount(){
         n--;
         txt.text= "Number Left : "+n;
+        if(n == 0){
+            
+         SceneManager.LoadScene("Chapter3");
 
+        }
+        
     }
   
+    
 }

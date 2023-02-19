@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -11,6 +12,12 @@ public class PlayerController : MonoBehaviour
     Vector2 movementInput;
     SpriteRenderer spriteRenderer;
     Rigidbody2D rb;
+    private bool doorCol = false;
+    private bool stoveCol = false;
+    private bool bookshelfCol = false;
+    private bool sinkCol = false;
+    private int orderSpot=0;
+
 
     Animator animator;
 
@@ -21,6 +28,7 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        orderSpot=0;
     }
 
 
@@ -70,5 +78,74 @@ public class PlayerController : MonoBehaviour
 
     void OnMove(InputValue movementValue){
         movementInput = movementValue.Get<Vector2>();
+    }
+    void Update(){
+        if(Input.GetKeyDown (KeyCode.F))
+        {
+            if (orderSpot%4==0){
+                if (stoveCol){
+                    orderSpot++;
+                }
+            }
+            else if (orderSpot%4==1){
+                if (sinkCol){
+                    orderSpot++;
+                }
+            }
+            else if (orderSpot%4==2){
+                if (bookshelfCol){
+                    orderSpot++;
+                }
+            }
+            else if (orderSpot%4==3){
+                if (doorCol){
+                    orderSpot++;
+                }
+            }
+            
+            
+        }
+        Debug.Log(orderSpot);
+        if (orderSpot>=4){
+                SceneManager.LoadScene("Chapter2Intro");
+            }
+    }
+    void OnTriggerEnter2D(Collider2D col){
+        if (col.gameObject.tag == "book"){
+            SceneManager.LoadScene("Chapter2");
+        }
+        else if (col.gameObject.tag == "door"){
+            doorCol=true;
+            
+        }
+        else if (col.gameObject.tag == "stove"){
+            stoveCol=true;
+
+        }
+        else if (col.gameObject.tag == "bookshelf"){
+            bookshelfCol=true;
+        }
+        else if (col.gameObject.tag == "sink"){
+            sinkCol=true;
+        }
+
+    }
+    void OnTriggerExit2D(Collider2D col){
+
+        if (col.gameObject.tag == "door"){
+            doorCol=false;
+            
+        }
+        else if (col.gameObject.tag == "stove"){
+            stoveCol=false;
+
+        }
+        else if (col.gameObject.tag == "bookshelf"){
+            bookshelfCol=false;
+        }
+        else if (col.gameObject.tag == "sink"){
+            sinkCol=false;
+        }
+
     }
 }
