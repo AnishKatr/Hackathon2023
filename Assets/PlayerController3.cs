@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerController3 : MonoBehaviour
 {
@@ -41,5 +42,11 @@ public class PlayerController3 : MonoBehaviour
 
     void OnMove(InputValue movementValue){
         movementInput = movementValue.Get<Vector2>();
+    }
+    void OnTriggerEnter2D(Collider2D col){
+        Debug.Log("here");
+       // if (col.gameObject.tag == "chair"){
+            SceneManager.LoadScene("menu");
+       // }
     }
 }
