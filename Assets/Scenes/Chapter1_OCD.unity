@@ -6563,6 +6563,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3883172130643468842, guid: c4c131edd20782849a4295c486494518, type: 3}
+      propertyPath: m_Actions
+      value: 
+      objectReference: {fileID: -944628639613478452, guid: b8c1d813571635847b9256f38035fd8f, type: 3}
+    - target: {fileID: 3883172130643468842, guid: c4c131edd20782849a4295c486494518, type: 3}
+      propertyPath: m_DefaultActionMap
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 8068665536717063382, guid: c4c131edd20782849a4295c486494518, type: 3}
       propertyPath: m_RootOrder
       value: 1
