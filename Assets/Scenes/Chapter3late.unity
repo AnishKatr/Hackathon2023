@@ -160,7 +160,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 433, y: -196}
+  m_AnchoredPosition: {x: 266, y: -90}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1864629
@@ -207,8 +207,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 545940085}
-        m_TargetAssemblyTypeName: TextChanger, Assembly-CSharp
+      - m_Target: {fileID: 545940087}
+        m_TargetAssemblyTypeName: CHP3TextChanger, Assembly-CSharp
         m_MethodName: OnButtonPress
         m_Mode: 1
         m_Arguments:
@@ -4907,7 +4907,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 152, y: -196}
+  m_AnchoredPosition: {x: 90, y: -90}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &121573862
@@ -4954,8 +4954,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 129494618}
-        m_TargetAssemblyTypeName: TextChanger, Assembly-CSharp
+      - m_Target: {fileID: 129494620}
+        m_TargetAssemblyTypeName: CHP3TextChanger, Assembly-CSharp
         m_MethodName: OnButtonPress
         m_Mode: 1
         m_Arguments:
@@ -5064,7 +5064,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 140a96e503f9f476795908b513ff7c25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  txt: {fileID: 2553255}
+  txt: {fileID: 2131694129}
   myButton: {fileID: 121573862}
   replacement: I think I can afford to have 100 cals today, I hope I don't look fat
 --- !u!1 &336138851
@@ -5104,7 +5104,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -420, y: -196}
+  m_AnchoredPosition: {x: -250, y: -90}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &336138853
@@ -5151,8 +5151,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1371391315}
-        m_TargetAssemblyTypeName: TextChanger, Assembly-CSharp
+      - m_Target: {fileID: 1371391317}
+        m_TargetAssemblyTypeName: CHP3TextChanger, Assembly-CSharp
         m_MethodName: OnButtonPress
         m_Mode: 1
         m_Arguments:
@@ -5294,7 +5294,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 140a96e503f9f476795908b513ff7c25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  txt: {fileID: 1298049059}
+  txt: {fileID: 2131694129}
   myButton: {fileID: 1864629}
   replacement: 400 cals?!! I'm fat enough!!
 --- !u!1 &670868203
@@ -6756,7 +6756,7 @@ RectTransform:
   m_GameObject: {fileID: 1262692597}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9823214, y: 0.13492487, z: 0.30208844}
+  m_LocalScale: {x: 0.9823214, y: 0.13323832, z: 0.30208844}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2065654973}
@@ -6764,8 +6764,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 17, y: -34}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 2.3188477, y: -34}
+  m_SizeDelta: {x: -29.8911, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1262692599
 MonoBehaviour:
@@ -7001,7 +7001,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 140a96e503f9f476795908b513ff7c25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  txt: {fileID: 1799790304}
+  txt: {fileID: 2131694129}
   myButton: {fileID: 336138853}
   replacement: While chicken tenders sounds amazing, I don't know if I can afford
     to have 210 cals
@@ -7042,7 +7042,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -137, y: -196}
+  m_AnchoredPosition: {x: -81, y: -90}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1551553323
@@ -7089,8 +7089,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1928489661}
-        m_TargetAssemblyTypeName: TextChanger, Assembly-CSharp
+      - m_Target: {fileID: 1928489663}
+        m_TargetAssemblyTypeName: CHP3TextChanger, Assembly-CSharp
         m_MethodName: OnButtonPress
         m_Mode: 1
         m_Arguments:
@@ -7334,7 +7334,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 140a96e503f9f476795908b513ff7c25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  txt: {fileID: 1066970756}
+  txt: {fileID: 2131694129}
   myButton: {fileID: 1551553323}
   replacement: Hmm... Pizza... the carbohydrates...
 --- !u!1 &2012234422
@@ -7391,7 +7391,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 1
+  orthographic size: 1.3
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -7490,7 +7490,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -7702,8 +7702,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -7738,7 +7738,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -476.9984, y: 0, z: -423.026, w: 0}
+  m_margin: {x: -313.19543, y: 11.105287, z: -259.22302, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

@@ -12,17 +12,18 @@ public class CHP3TextChanger : MonoBehaviour {
    public Button myButton;
    public string replacement;
    public static int count;
-
+   
 
    void Start(){
       Button btn = myButton.GetComponent<Button>();
-
+      count = 0;
    }
    public void OnButtonPress(){
       
       txt.text = replacement;
       myButton.interactable= false;
       count++;
+      Debug.Log(count);
       
       
    }
