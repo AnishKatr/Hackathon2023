@@ -110,7 +110,7 @@ public class PlayerController : MonoBehaviour
         Debug.Log(orderSpot);
         txt.text=orderSpot.ToString();
         if (orderSpot>=12){
-                SceneManager.LoadScene("Chapter2Intro");
+                SceneManager.LoadScene("introductionCHP2");
             }
     }
     void OnTriggerEnter2D(Collider2D col){

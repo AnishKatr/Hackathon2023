@@ -8,7 +8,7 @@ public class mainMenuscript : MonoBehaviour
     //initialize game
     public void playGame(){
         
-        SceneManager.LoadScene("Chapter1_OCD");
+        SceneManager.LoadScene("transitionCHP1");
 
     }
 
