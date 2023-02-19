@@ -7771,7 +7771,7 @@ GameObject:
   - component: {fileID: 1166353915}
   - component: {fileID: 1166353918}
   - component: {fileID: 1166353917}
-  - component: {fileID: 1166353916}
+  - component: {fileID: 1166353920}
   m_Layer: 5
   m_Name: DialogueBox
   m_TagString: Untagged
@@ -7800,24 +7800,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -120}
   m_SizeDelta: {x: -200, y: -360}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1166353916
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1166353914}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37ace2bb9352d2e48afa89f3bbcc913c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textComponent: {fileID: 996312598}
-  lines:
-  - Argh! I woke up late again!
-  - Gotta make sure the sink isn't running, not even one drip.
-  - Is the stove off?
-  textSpeed: 0.05
 --- !u!114 &1166353917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7856,6 +7838,29 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1166353914}
   m_CullTransparentMesh: 1
+--- !u!114 &1166353920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166353914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37ace2bb9352d2e48afa89f3bbcc913c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 996312598}
+  lines:
+  - Argh! I overslept again!
+  - I didn't leave the stove on again did I?
+  - I should check the sink just in case
+  - All the books need to be in perfect order
+  - Is someone at the door?
+  - I might have messed something up...
+  - I should check just in case
+  - I can't leave until I get everything exactly right
+  textSpeed: 0.05
 --- !u!4 &1213889276 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8068665536717063382, guid: c4c131edd20782849a4295c486494518, type: 3}
